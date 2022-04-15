@@ -606,10 +606,11 @@ if ( ! function_exists( 'envo_magazine_author_meta' ) ) :
 	function envo_magazine_author_meta( ) {
 	?>
 		<span class="author-meta">
-			<span class="author-meta-by"><?php esc_html_e( 'By', 'envo-magazine' ); ?></span>
-			<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>">
+			<span class="author-meta-by"><?php esc_html_e( 'By', 'envo-magazine' ); ?>
+			<a style="display: inline-block;" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ) ); ?>">
 				<?php the_author(); ?>
 			</a>
+			</span>
 		</span>
 	<?php
 	}

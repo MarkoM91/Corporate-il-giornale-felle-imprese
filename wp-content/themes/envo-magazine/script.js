@@ -10,6 +10,8 @@ function init() {
   $('.article:first-of-type .post .news-item .news-thumb').addClass('col-md-12');
   $('.article:first-of-type .post .news-item .news-text-wrap').removeClass('col-md-6');
   $('.article:first-of-type .post .news-item .news-text-wrap').addClass('col-md-12');
+  $('article.page-article').removeClass('col-md-12');
+  $('article.page-article').addClass('col-md-8');
 
 
   // <!-- Initialize Swiper -->  <script>
