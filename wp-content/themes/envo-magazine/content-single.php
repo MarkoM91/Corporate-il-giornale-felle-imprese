@@ -5,7 +5,8 @@
 }
 
 .credits-box {
-	margin: 0 160px 0 0!important;
+  position: relative;
+  right: 16px !important;
 }
 
 </style>
