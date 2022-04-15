@@ -1980,3 +1980,30 @@ img {
 .scale {
   background-color: red !important;
 }
+
+#breadcrumbs {
+  display: none !important;
+}
+
+.single-entry-summary,
+.single-title
+ {
+    color: #272727;
+}
+
+.page-article {
+  background-color: #fff;
+  padding: 0 !important;
+}
+
+.page-article .news-thumb  {
+  padding: 0 !important;
+ }
+
+.page-article .container {
+  padding: 0 16px;
+}
+
+.single-title {
+  font-size: 60px !important;
+}

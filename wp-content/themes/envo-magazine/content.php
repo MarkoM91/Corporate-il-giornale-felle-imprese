@@ -10,8 +10,8 @@
 
 				<div class="post-excerpt">
 					<?php the_excerpt(); ?>
+					<p><?php envo_magazine_author_meta(); ?></p>
 				</div><!-- .post-excerpt -->
-
 			</div><!-- .news-text-wrap -->
 
 		</div><!-- .news-item -->

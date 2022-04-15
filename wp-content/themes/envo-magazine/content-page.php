@@ -11,7 +11,6 @@
 							<time class="posted-on published" datetime="<?php the_time( 'Y-m-d' ); ?>"></time>
 						</header>
 						<div class="entry-content">
-
 							<?php do_action( 'envo_magazine_before_content' ); ?>
 							<?php the_content(); ?>
 							<?php do_action( 'envo_magazine_after_content' ); ?>
